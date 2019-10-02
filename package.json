@@ -1,0 +1,31 @@
+{
+  "name": "repair-design-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeny-Kravchenko/repair-design-project.git"
+  },
+  "author": "Evgeny Kravchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgeny-Kravchenko/repair-design-project/issues"
+  },
+  "homepage": "https://github.com/Evgeny-Kravchenko/repair-design-project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
