@@ -1,0 +1,487 @@
+.main {
+  width: 100%;
+  height: 4500px;
+  background-color: gray;
+}
+
+.rostov-on-don {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: purple;
+}
+
+.instagram {
+  width: 5.694%;
+  height: 100%;
+  background-color: rgb(110, 32, 32);
+}
+
+.turnkey-repair {
+  width: 94.36%;
+  height: 100%;
+  background-color: rgb(211, 64, 64);
+}
+/*Adaptive for .rostov-on-don*/
+@media screen and (max-width: 375px) {
+  .instagram {
+    display: none;
+  }
+
+  .turnkey-repair {
+    width: 100%;
+  }
+}
+
+.projects {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(91, 84, 155);
+}
+
+.completed-projects {
+  width: 53.264%;
+  height: 100%;
+  background-color: rgb(75, 224, 38);
+}
+
+.slider-nav {
+  width: 46.736%;
+  height: 100%px;
+  background-color: rgb(172, 230, 119);
+
+  .nav {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(40, 153, 187);
+
+    &__menu {
+      margin: 0;
+    }
+  }
+
+  .slider {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(30, 86, 124);
+  }
+}
+/*Adaptive for .project*/
+@media screen and (max-width: 375px) {
+  .projects {
+    display: block;
+
+    .nav {
+      display: none;
+    }
+
+    .slider-nav {
+      width: 100%;
+      height: 50%;
+
+      .slider {
+        height: 100%;
+      }
+    }
+  }
+
+  .completed-projects {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+.online-control {
+  position: relative;
+  top: -150px;
+  width: 56.736%;
+  margin: 0 auto;
+  height: 300px;
+  background-color: rgb(88, 17, 53);
+}
+/*Adaptive for online-control*/
+@media screen and (max-width: 375px) {
+  .online-control {
+    width: 100%;
+    top: 0;
+  }
+}
+
+.order {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(206, 147, 147);
+
+  .form {
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+}
+
+.types-of-repair {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(70, 235, 172);
+
+  &__block {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .types-of-repair {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    &__block {
+      width: 90%;
+      margin: 0 auto;
+      height: 30%;
+    }
+  }
+}
+
+.steps-form {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(252, 15, 240);
+
+    .steps {
+      width: 50%;
+      height: 100%;
+      background-color: rgb(54, 47, 47);
+    }
+
+    .form {
+      width: 50%;
+      height: 100%;
+      background-color: rgb(22, 3, 3);
+    }
+}
+
+@media screen and (max-width: 375px)  {
+  .steps-form {
+    display: none;
+  }
+}
+
+.styles-of-repair{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(4, 41, 29);
+
+  .fantasies {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(216, 171, 171);
+
+    h2 {
+      margin: 0;
+      height: 70px;
+      background-color: rgb(245, 97, 97);
+    }
+
+    .nav {
+      height: calc(100% - 70px);
+      background-color: rgb(235, 232, 78);
+    }
+  }
+
+  .pictures {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(255, 128, 128);
+  }
+}
+
+@media screen and (max-width: 375px)  {
+  .styles-of-repair {
+    display: block;
+
+    .fantasies {
+      width: 100%;
+      height: 70px;
+    }
+
+    .nav {
+      display: none;
+    }
+
+    .pictures {
+      width: 100%;
+      height: calc(100% - 70px);
+    }
+  }
+}
+
+.design-project {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(0, 255, 234);
+
+    h2 {
+      margin: 0 auto;
+      width: 50%;
+      height: 20px;
+      background-color: rgb(234, 0, 255);
+    }
+
+    p {
+      margin: 0 auto;
+      width: 60%;
+      height: 100px;
+      background-color: rgb(133, 216, 138);
+    }
+
+    .variants-repair {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      height: calc(100% - 120px);
+      background-color: rgb(10, 61, 44);
+      margin: 0 auto;
+
+      .variant-of-block {
+        width: 30%;
+        height: 100%;
+        background-color: rgb(96, 12, 233);
+        margin-top: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .design-project {
+    h2 {
+      width: 100%;
+    }
+
+    p {
+      width: 100%;
+    }
+
+    .variants-repair {
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .variant-of-block {
+        height: 30%;
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.how-working {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(18, 60, 139);
+}
+
+.description-steps {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(143, 226, 157);
+}
+
+.steps {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(155, 75, 75);
+}
+
+.numbers-steps {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 30%;
+  background-color: #fff;
+
+  &__item {
+    border: 1px solid black;
+  }
+}
+
+.img {
+  width: 100%;
+  height: 70%;
+  background-color: rgb(84, 221, 141);
+}
+
+@media screen and (max-width: 375px) {
+  .how-working {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .numbers-steps {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.our-team {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(223, 112, 112);
+
+  h2 {
+    width: 10%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: rgb(71, 173, 233);
+  }
+
+  p {
+    width: 30%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: rgb(97, 90, 90);
+  }
+}
+
+.our-team-photo {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  height: calc(100% - 100px);
+  background-color: #fff;
+
+  &__item {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(151, 105, 204);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .our-team {
+    h2 {
+      width: 100%;
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+
+  .our-team-photo {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+
+    &__item {
+      width: 100%;
+      height: 30%;
+      background-color: rgb(151, 105, 204);
+    }
+  }
+}
+
+.our-clients {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(47, 0, 255);
+
+  h2 {
+    margin: 10px auto;
+    background-color: rgb(97, 107, 110);
+    width: 30%;
+    height: 30px;
+  }
+
+  p {
+    margin: 10px auto;
+    background-color: rgb(51, 255, 0);
+    width: 60%;
+    height: 50px;
+  }
+}
+
+.clients-photo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: calc(100% - 80px);
+  background-color: rgb(238, 116, 116);
+
+  &__block {
+    width: 30%;
+    height: 95%;
+    background-color: rgb(115, 112, 128);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .our-clients {
+    display: none;
+  }
+}
+
+.map-and-question {
+  padding-top: 150px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(0, 241, 40);
+
+  &__question {
+    width: 60%;
+    height: 50%;
+    background-color: rgb(96, 105, 230);
+    position: absolute;
+    top: -100px;
+    left: 20%;
+  }
+
+  p {
+    width: 60%;
+    height: 50px;
+    background-color: rgb(5, 39, 5);
+    margin: 0 auto;
+  }
+
+  &__map {
+    width: 80%;
+    height: calc(300px - 50px);
+    background-color: rgb(255, 0, 149);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .map-and-question {
+    padding: 0;
+    position: static;
+
+    &__question {
+      position: static;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    p {
+      width: 100%;
+    }
+
+    &__map {
+      width: 100%;
+    }
+  }
+}

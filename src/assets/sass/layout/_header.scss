@@ -1,0 +1,133 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 24px 6.9444% 22px 5.6944%;
+  width: 100%;
+  background: #131313;
+}
+
+.logo {
+  margin: 0;
+  font-family: "FuturaDemiC";
+  font-size: 0.875rem;
+  text-transform: uppercase;
+
+  &__link {
+    text-decoration: none;
+    color: #E3B873;
+  }
+}
+
+.navbar {
+  width: 47.3771%;
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: #fff;
+    font: 0.875rem "FuturaBookC";
+    transition: 0.5s;
+
+    &_active, &:hover {
+      color: #E3B873;
+    }
+  }
+}
+
+.number-mobile {
+  font-family: "FuturaDemiC";
+  font-size: 0.875rem;
+  text-decoration-line: underline;
+  color: #E3B873;
+}
+
+.button-request {
+  font-family: "FuturaDemiC";
+  font-size: 0.8125rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border: none;
+  border-radius: 2px;
+  padding: 10px 26px 10px 27px;
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar {
+    width: 50%;
+  }
+
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .header__button {
+    display: none;
+  }
+
+  .navbar {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__number-mobile {
+    display: none;
+  }
+
+  .navbar {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    &__logo {
+      margin-bottom: 20px;
+    }
+  }
+
+  .navbar {
+    width: 100%;
+
+    &__link {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    flex-direction: row;
+    padding: 21px 18px;
+
+    &__number-mobile {
+      display: block;
+      color: #fff;
+    }
+
+    &__logo {
+      margin: 0;
+    }
+  }
+
+  .navbar {
+    display: none;
+  }
+}

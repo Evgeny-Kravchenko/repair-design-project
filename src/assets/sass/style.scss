@@ -4,9 +4,10 @@
 
 .wrapper {
     max-width: 1440px;
-    height: 100px;
     margin: 0 auto;
     background-color: green;
 }
 
 @import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";

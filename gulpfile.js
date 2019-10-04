@@ -10,6 +10,13 @@ const scss = require('gulp-sass'),
       autoprefixer = require('gulp-autoprefixer');
 
 //Функции
+    //Таск на html
+    function html() {
+      return gulp.src("src/*.html")
+      // Выгрузка скомпилированного html в dist/
+      .pipe(gulp.dest('dist/'))
+      .pipe(browserSync.stream());
+    }
     //Таск на стили
     function styles() {
         // Выбор файла scss
@@ -55,16 +62,16 @@ const scss = require('gulp-sass'),
     // Запуск browserSync
         browserSync.init({
             server: {
-                baseDir: "./"
+                baseDir: "dist/"
             },
             port: 3000
         });
     // Запуск функции converter в случае изменения файлов стилей scss
         gulp.watch('src/assets/sass/**/*.scss', styles);
     // Обновляет браузер в случае изменения html
-        gulp.watch("*.html").on('change', browserSync.reload);
+        gulp.watch("src/*.html").on('change', html);
 
-    }    
+    }
 
     function clean(){
         return del(['dist/*']);
@@ -72,6 +79,7 @@ const scss = require('gulp-sass'),
 
 // ТАСКИ
     //Компилирование файлов стилей и скриптов по отдельности
+    gulp.task('html', html);
     gulp.task('styles', styles);
     gulp.task('fonts', fonts);
     gulp.task('img', img);
@@ -79,7 +87,7 @@ const scss = require('gulp-sass'),
     gulp.task('watch', watch);
 // Удаление файлов в dist и компилирование новых файлов
     gulp.task('dist', gulp.series(clean,
-                      gulp.parallel('styles', 'fonts', 'img')
+                      gulp.parallel('html', 'styles', 'fonts', 'img')
                       ));
 // Удаление файлов в dist и компилирование новых файлов + автоматическое компилирование файлов
     gulp.task('dev', gulp.series('dist', 'watch'));
