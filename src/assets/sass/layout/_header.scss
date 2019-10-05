@@ -10,8 +10,7 @@
 
 .logo {
   margin: 0;
-  font-family: "FuturaDemiC";
-  font-size: 0.875rem;
+  font: 0.875rem "FuturaDemiC";
   text-transform: uppercase;
 
   &__link {
@@ -42,15 +41,13 @@
 }
 
 .number-mobile {
-  font-family: "FuturaDemiC";
-  font-size: 0.875rem;
+  font: 0.875rem "FuturaDemiC";
   text-decoration-line: underline;
   color: #E3B873;
 }
 
 .button-request {
-  font-family: "FuturaDemiC";
-  font-size: 0.8125rem;
+  font: 0.8125rem "FuturaDemiC";
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -59,6 +56,10 @@
   border: none;
   border-radius: 2px;
   padding: 10px 26px 10px 27px;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 1150px) {
