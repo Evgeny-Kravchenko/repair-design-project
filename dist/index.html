@@ -111,8 +111,30 @@
           </div>
         </div>
       </div>
-
       <div class="online-control">
+        <div class="online-control_margin-negative">
+          <h3 class="online-control__h3">online control</h3>
+          <iframe class="online-control__video" src="https://www.youtube.com/embed/Y8Q9ptCXzL0?&showinfo=0&controls=0&autohide=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="online-control__p">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!<br> Leave a request below and you will receive a link to the broadcast.</p>
+          <form class="online-control__form-order form-order" action="#" method="GET" autocomplete="off">
+            <div class="form-order__name">
+              <label class="form-order__label" for="name">Name</label>
+              <input class="form-order__input" type="text" id="name" placeholder="What is your name:" maxlength="20" required>
+            </div>
+            <div class="form-order__tel">
+              <label class="form-order__label" for="tel">Phone</label>
+              <input class="form-order__input" type="tel" placeholder="Your phone number:" id="tel" pattern='\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}' required>
+            </div>
+            <input class="form-order__submit" type="submit" value="Submit">
+            <div class="form-order__checkbox">
+              <label for="agree">
+                <input type="checkbox" id="agree" required>
+                <span class="custom-checkbox"></span>
+                I agree to the processing of personal data
+              </label>
+            </div>
+          </form>
+        </div>
       </div>
 
       <div class="order">

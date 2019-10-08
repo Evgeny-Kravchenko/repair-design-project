@@ -6,34 +6,8 @@
 
 @import "./main/rostov-ov-don";
 @import "./main/completed_projects";
+@import "./main/online_control";
 
-.online-control {
-  position: relative;
-  width: 56.736%;
-  margin: 0 auto;
-  height: 300px;
-  background-color: rgb(88, 17, 53);
-}
-/*Adaptive for online-control*/
-@media screen and (max-width: 375px) {
-  .online-control {
-    width: 100%;
-    top: 0;
-  }
-}
-
-.order {
-  width: 100%;
-  height: 100px;
-  background-color: rgb(206, 147, 147);
-
-  .form {
-    width: 70%;
-    height: 100px;
-    margin: 0 auto;
-    background-color: #fff;
-  }
-}
 
 .types-of-repair {
   display: flex;
