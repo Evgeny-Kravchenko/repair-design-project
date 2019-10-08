@@ -1,0 +1,129 @@
+.types-of-repair {
+
+  &__h3 {
+    width: 177px;
+    margin: 0 auto 74px auto;
+    position: relative;
+    font: 1.25rem "Yeseva One";
+    text-transform: uppercase;
+    color: #181818;
+
+    &:after {
+      content: url("../images/type-of-repaire.svg");
+      position: absolute;
+      top: 38px;
+      left: 35px;
+    }
+  }
+}
+
+.blocks-type {
+  display: flex;
+  width: 88%;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  &__block {
+    position: relative;
+    width: 30.9346%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.block-type {
+
+  &__price {
+    width: 84.1837%;
+    position: absolute;
+    top: 295px;
+    left: 8.5%;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 0 54px 35px;
+    box-sizing: border-box;
+
+    h4 {
+      font: 1.125rem "Yeseva One";
+      font-style: normal;
+      font-weight: normal;
+      line-height: 25px;
+      color: #363636;
+    }
+
+    ul {
+      padding: 5px 0 0 15px;
+    }
+
+    li {
+      font: 0.9375rem "FuturaBookC";
+      line-height: 25px;
+      color: #959595;
+      list-style-type: disc;
+    }
+
+    p {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      bottom: -30px;
+      padding: 14px 28px;
+      font: 1.125rem/25px "Yeseva One";
+      font-style: normal;
+      font-weight: normal;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      background: #E3B873;
+      box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    }
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .block-type__price {
+    top: 222px;
+
+    p {
+      font-size: 0.9375rem;
+    }
+
+    h4 {
+      font-size: 0.9375rem;
+    }
+
+    li {
+      font-size: 0.8125rem;
+      line-height: 169.8%;
+    }
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .blocks-type {
+    flex-direction: column;
+    width: 90.6667%;
+    align-items: center;
+
+    &__block {
+      max-width: 340px;
+      width: 100%;
+      margin-bottom: 174px;
+    }
+  }
+
+  .block-type__price {
+    width: 79.1837%;
+    left: 0;
+    padding-bottom: 32px;
+
+    p {
+      padding: 8px 20px;
+    }
+  }
+
+  .types-of-repair__h3 {
+    margin-top: 80px;
+    margin-bottom: 85px;
+  }
+}

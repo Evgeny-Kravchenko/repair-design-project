@@ -7,35 +7,8 @@
 @import "./main/rostov-ov-don";
 @import "./main/completed_projects";
 @import "./main/online_control";
+@import "./main/types-of-repair";
 
-
-.types-of-repair {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 300px;
-  background-color: rgb(70, 235, 172);
-
-  &__block {
-    width: 25%;
-    height: 100%;
-    background-color: rgb(255, 0, 0);
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .types-of-repair {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    &__block {
-      width: 90%;
-      margin: 0 auto;
-      height: 30%;
-    }
-  }
-}
 
 .steps-form {
   display: flex;
