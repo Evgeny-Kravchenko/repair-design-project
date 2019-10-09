@@ -189,6 +189,40 @@
           </div>
         </div>
       </div>
+      <div class="circle-and-form">
+        <div class="circle-and-form__circle circle">
+          <div class="circle__circle-xl circle-xl">
+            <p class="circle-xl__step-one">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
+            <p class="circle-xl__step-two">Free metering</p>
+            <p class="circle-xl__step-three">Free consultation</p>
+            <p class="circle-xl__step-four">Get a cost estimate and the timing of your future repairs</p>
+          </div>
+        </div>
+        <form class="circle-and-form__form-call form-call" method="GET" action="#" autocomplete="off">
+          <h6 class="form-call__title">Leave a request for free departure of the measurer</h6>
+          <div class="form-call__name name">
+            <label for="name-call" class="name__lbl">Name</label>
+            <input type="text" class="name__inp" id="name-call" maxlength="20" placeholder="What is your name:" required>
+          </div>
+          <div class="form-call__number-phone number-phone">
+            <label for="tel-call" class="number-phone-lbl">Phone</label>
+            <input type="tel" class="number-phone__inp" id="tel-call" placeholder="Your phone number:" pattern='\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}' required>
+          </div>
+          <div class="form-call__email email">
+            <label for="email" class="email__lbl">Email</label>
+            <input type="email" class="email__inp" id="email" placeholder="Your email" required>
+          </div>
+          <div class="form-call__checkbox">
+            <label for="agree-call">
+              <input type="checkbox" id="agree-call" required>
+              <span class="custom-checkbox"></span>
+              I agree to the processing of personal data
+            </label>
+          </div>
+          <input type="submit" class="form-call__button-call button-call" value="Call the measurer">
+        </form>
+        <p class="circle-and-form__piggy-bank">Help save 10 - 20% of the cost of materials</p>
+      </div>
     </main>
   </div>
 </body>
