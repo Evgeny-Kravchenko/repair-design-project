@@ -164,6 +164,12 @@
 
 @media screen and (max-width: 500px) {
   .realize-fantasies {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .realize-fantasies {
     height: 150px;
   }
 }
