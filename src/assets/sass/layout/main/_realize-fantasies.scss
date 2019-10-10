@@ -1,0 +1,171 @@
+.realize-fantasies {
+  position: relative;
+  padding: 134px 0 52px 100px;
+  background-color: #181818;
+  background-image: url("../images/fantasies-bg.jpg");
+  background-size: cover;
+
+  &__h2 {
+    width: 25%;
+    font: 1.6875rem/37px "Yeseva One";
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 37px;
+  }
+}
+
+.menu-style {
+  font: 1.25rem/34px "Proxima Nova";
+  padding: 0;
+
+  &__item {
+    margin-bottom: 18px;
+  }
+
+  &__link {
+    color: #FFFFFF;
+    padding-bottom: 2px;
+    transition: 0.5s;
+    &:hover {
+      color: #E3B873;
+    }
+
+    &_active {
+      color: #E3B873;
+      border-bottom: 0.66px solid #E3B873;
+    }
+  }
+}
+
+.img-one, .img-two, .img-three, .img-four {
+  position: absolute;
+}
+
+.img-one {
+  top: -4.8%;
+  right: 496px;
+}
+
+.img-two {
+  top: 64.5%;
+  right: 496px;
+}
+
+.img-three {
+  top: -12.8%;
+  right: 100px;
+}
+
+.img-four {
+  top: 23%;
+  right: 100px;
+}
+
+.slider-for-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1260px) {
+  .img-one, .img-two, .img-three, .img-four {
+    width: 30%;
+  }
+
+  .img-one {
+    top: -4.8%;
+    right: 415px;
+  }
+
+  .img-two {
+    top: 64.5%;
+    right: 415px;
+  }
+
+  .img-three {
+    top: -12.8%;
+    right: 20px;
+  }
+
+  .img-four {
+    top: 23%;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+
+  .img-one, .img-two {
+    display: none;
+  }
+
+  .img-three {
+    min-width: 328px;
+    top: 20px;
+    right: 220px;
+  }
+
+  .img-four {
+    min-width: 328px;
+    top: 295px;
+    right: 220px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .img-three, .img-four {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .style-of-repair {
+
+    &__menu-style {
+      display: none;
+    }
+
+  }
+
+  .img-three, .img-four {
+    display: none;
+  }
+  .realize-fantasies {
+    background-image: none;
+    padding: 0;
+    height: 400px;
+
+    &__h2 {
+      width: 85%;
+      margin: 0 auto;
+      font-size: 1.375rem;
+      line-height: 138.6%;
+      text-align: center;
+    }
+  }
+
+  .slider-for-mobile {
+    position: relative;
+    width: 90.6667%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    &__img {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .pos-neg {
+    position: relative;
+    top: -211px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .realize-fantasies {
+    height: 150px;
+  }
+}
+
+
