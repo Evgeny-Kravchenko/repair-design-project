@@ -125,7 +125,7 @@
               <label class="form-order__label" for="tel">Phone</label>
               <input class="form-order__input" type="tel" placeholder="Your phone number:" id="tel" pattern='\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}' required>
             </div>
-            <input class="form-order__submit" type="submit" value="Submit">
+            <input class="form-order__submit submit" type="submit" value="Submit">
             <div class="form-order__checkbox">
               <label for="agree">
                 <input type="checkbox" id="agree" required>
@@ -440,6 +440,56 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="question-and-map">
+        <form class="question-and-map__question form-question" autocomplete="off">
+          <h6 class="form-question__h6">have any questions?</h6>
+          <div class="question-and-map__name-phone name-phone">
+            <div class="name">
+              <label for="name-call" class="name__lbl">Name</label>
+              <input type="text" class="name__inp" id="name-call" maxlength="20" placeholder="What is your name:" required>
+            </div>
+            <div class="number-phone">
+              <label for="tel-call" class="number-phone-lbl">Phone</label>
+              <input type="tel" class="number-phone__inp" maxlength="15" id="tel-call" placeholder="Your phone number:" pattern='\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}' required>
+            </div>
+          </div>
+          <div class="question-and-map__question question">
+            <label for="question" class="question_lbl">Question</label>
+            <input type="text" class="question__inp" id="question" maxlength="100" placeholder="I want to know" required>
+          </div>
+          <div class="form-call__checkbox question__checkbox">
+            <label for="agree-question">
+              <input type="checkbox" id="agree-question" required>
+              <span class="custom-checkbox"></span>
+              I agree to the processing of personal data
+            </label>
+          </div>
+          <input class="submit" type="submit" value="Submit">
+        </form>
+        <address class="question-and-map__address">Rostov-on-Don, Nansen St., 239 Shopping Center
+          Decorum Tel +7 (928) 768 32 29</address>
+          <div class="question-and-map__social-network social-network">
+            <a href="#" class="social-network__email">
+              <img src="./images/social-email.svg" alt="email">
+            </a>
+            <a href="#" class="social-network__instargam">
+              <img src="./images/social-instargam.svg" alt="instagram">
+            </a>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27308.032263488873!2d27.504840586306894!3d52.773470890987596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sby!4v1570905563636!5m2!1sen!2sby" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <address class="question-and-map__address-mob">Rostov-on-Don, Nansen St., 239 Shopping Center
+            Decorum Tel +7 (928) 768 32 29</address>
+            <div class="question-and-map__social-network-mob social-network-mob">
+              <a href="#" class="social-network-mob__email">
+                <img src="./images/social-email.svg" alt="email" width="39">
+              </a>
+              <a href="#" class="social-network-mob__instargam">
+                <img src="./images/social-instargam.svg" alt="instagram" width="39">
+              </a>
+            </div>
       </div>
     </main>
   </div>
