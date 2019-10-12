@@ -1,40 +1,36 @@
 .footer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background-color: black;
-  height: 50px;
+  padding: 50px 6.5% 50px 6.5%;
 
-    &__logo {
-      width: 13.89%;
-      height: 50px;
-      background-color: aqua;
-      margin: 0;
-    }
+  .navbar {
+    margin-left: 34px;
+  }
 
-    &__number-mobile {
-      width: 22.2215%;
-      height: 50px;
-      background-color: blue;
-    }
-
-    &__button {
-      width: 22.2215%;
-      height: 50px;
-      background-color: brown;
-    }
-
-    .nav {
-      width: 41.667%;
-      height: 50px;
-      background-color: yellow;
-      margin: 0;
-    }
+  .button-request {
+    margin-right: 10px;
+  }
 }
 
-@media screen and (max-width: 375px) {
-
+@media screen and (max-width: 1200px) {
   .footer {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    .header__number-mobile {
       display: none;
     }
+
+    .navbar {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    display: none;
+  }
 }

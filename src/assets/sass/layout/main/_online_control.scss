@@ -258,6 +258,7 @@
 
 @media screen and (max-width: 375px) {
   .online-control {
+    background-color: #181818;
     padding-top: 25px;
 
     &__h3 {
@@ -278,7 +279,15 @@
 
     &__submit {
       width: 100%;
-      top: 208px;
+      top: 267px;
+    }
+
+    &__name {
+      margin-bottom: 58px;
+    }
+
+    &__input {
+      background-color: #181818;
     }
   }
 }

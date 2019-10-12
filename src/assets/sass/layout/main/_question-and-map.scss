@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 273px;
   padding-bottom: 65px;
-  background: url("../images/bg-question-and-map.jpg") #181818;
+  background: url("../images/bg-question-and-map.jpg") #131313;
   background-size: cover;
 
   &__address {
@@ -68,7 +68,7 @@
   width: 61.3194%;
   margin: 0 auto;
   padding-top: 32px;
-  background-color: #181818;
+  background-color: #131313;
 
   &__h6 {
     font: 1.25rem/28px "Yeseva One";
@@ -192,6 +192,7 @@
 @media screen and (max-width: 375px) {
   .question-and-map {
     padding-bottom: 1px;
+    background-color: #181818;
 
     &__address, &__social-network {
       display: none;
@@ -220,6 +221,7 @@
   }
 
   .form-question {
+    background-color: #181818;
     padding-bottom: 43px;
     padding-top: 0;
 
