@@ -146,6 +146,12 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .how-working__bl-steps {
+    padding-top: 150px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
 
   .how-working {
@@ -163,7 +169,7 @@
 
 @media screen and (max-width: 970px) {
   .how-working {
-    padding-top: 180px;
+    padding-top: 100px;
   }
 }
 
