@@ -23,7 +23,6 @@
 .circle {
   width: 57.9167%;
   background: url("../images/house-img.png") no-repeat;
-  background-size: cover;
   background-position: -50px;
 }
 
@@ -36,7 +35,7 @@
   border-bottom: 1px solid #E3B873;
   border-radius: 50%;
   position: relative;
-  top: 60px;
+  top: 38px;
   left: -176px;
 
   p {
@@ -257,6 +256,7 @@
 @media screen and (max-width: 1110px) {
   .circle-and-form {
     justify-content: center;
+    padding-bottom: 100px;
 
     &__piggy-bank {
       display: none;

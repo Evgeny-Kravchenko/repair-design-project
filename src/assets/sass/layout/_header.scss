@@ -26,6 +26,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0;
+    margin-left: 31px;
   }
 
   &__link {
@@ -110,6 +111,10 @@
     &__link {
       font-size: 0.8rem;
     }
+
+    &__menu {
+      margin-left: 0;
+    }
   }
 }
 
@@ -122,10 +127,12 @@
     &__number-mobile {
       display: block;
       color: #fff;
+      font-size: 0.75rem;
     }
 
     &__logo {
       margin: 0;
+      font-size: 0.75rem;
     }
   }
 

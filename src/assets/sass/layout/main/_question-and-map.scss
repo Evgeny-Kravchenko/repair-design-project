@@ -47,7 +47,7 @@
     width: 45%;
   }
 
-  .name__inp, .number-phone__inp, .email__inp {
+  .name__inp, .number-phone__inp, .question__inp {
     width: 100%;
     background: none;
     border: none;
@@ -190,6 +190,12 @@
 }
 
 @media screen and (max-width: 375px) {
+  .name-phone {
+    .name__inp, .number-phone__inp, .question__inp {
+      border-bottom: 1px solid #C3C3C3;
+    }
+  }
+
   .question-and-map {
     padding-bottom: 1px;
     background-color: #181818;
@@ -239,6 +245,10 @@
 
     &__checkbox {
       margin-bottom: 66px;
+    }
+
+    &__inp {
+      border-bottom: 1px solid #C3C3C3;
     }
   }
 }

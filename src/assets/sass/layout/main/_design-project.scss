@@ -24,12 +24,19 @@
   .design-project {
     padding-top: 10px;
   }
-}
 
+  .block-type__price {
+    padding-bottom: 39px;
+    
+    p {
+      bottom: -20px;
+    }
+  }
+}
 @media screen and (max-width: 375px) {
   .design-project {
     background-color: #181818;
-    padding-bottom: 145px;
+    padding-bottom: 33px;
 
     .types-of-repair__h3 {
       color: #fff;
@@ -51,5 +58,9 @@
 
   .standart {
     margin-bottom: 195px;
+  }
+
+  .full ul li:nth-child(7)~li{
+    display: none;
   }
 }

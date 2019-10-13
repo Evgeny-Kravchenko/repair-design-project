@@ -38,7 +38,7 @@
       position: relative;
 
       &:before {
-        content: url("../../../images/horizontal-line.svg");
+        content: url("../images/horizontal-line.svg");
         position: absolute;
         top: -37px;
         left: 46%;
@@ -172,7 +172,7 @@
 
     img {
       width: 303.74px;
-      margin-bottom: 145px;
+      margin-bottom: 164px;
     }
 
     &__descr {
@@ -186,11 +186,11 @@
     }
 
     &__name-prof {
-      top: -226px;
+      top: -247px;
     }
 
     &__experience {
-      margin-top: -226px;
+      margin-top: -247px;
     }
 
     &__photo-mobile {
@@ -240,5 +240,9 @@
 
   .persons {
     margin-left: 35px;
+
+    .card:nth-child(n + 2):before {
+      top: -74px;
+    }
   }
 }
