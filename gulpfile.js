@@ -57,7 +57,7 @@ function styles() {
 
 // Copy fonts
 function fonts() {
-  return gulp.src("src/assets/fonts/**/*.ttf").pipe(gulp.dest("dist/fonts"));
+  return gulp.src("src/assets/fonts/**/*").pipe(gulp.dest("dist/fonts"));
 }
 
 // Copy images
