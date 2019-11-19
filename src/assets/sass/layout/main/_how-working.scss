@@ -34,7 +34,7 @@
     padding-bottom: 14px;
     font: 0.9375rem/21px "FuturaDemiC";
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &__h2 {
@@ -43,17 +43,13 @@
     margin-bottom: 28px;
     font: normal 1.6875rem/37px "Yeseva One";
     text-transform: uppercase;
-    color: #E3B873;
+    color: #e3b873;
 
     &::after {
       content: url("../images/project_line.svg");
       position: absolute;
       bottom: 10px;
       left: 193px;
-    }
-
-    &__number-step {
-
     }
 
     &__bs-step {
@@ -66,27 +62,24 @@
     padding-top: 57px;
     font: 1.125rem/25px "Yeseva One";
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 21px;
   }
 }
 
-
-
 .ds-step {
-
   &__h3 {
     width: 44%;
     font: 0.9375rem/23px "Yeseva One";
     text-transform: uppercase;
-    color: #E3B873;
+    color: #e3b873;
     padding-bottom: 8px;
   }
 
   &__p {
     width: 65%;
     font: 0.9375rem/25px "FuturaBookC";
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 13px;
   }
 }
@@ -120,7 +113,7 @@
       font: 0.9375rem/21px "Yeseva One";
       text-transform: uppercase;
       color: #fff;
-      border-bottom: 1px solid #E3B873;
+      border-bottom: 1px solid #e3b873;
     }
   }
 
@@ -140,7 +133,8 @@
   &__bl {
     display: block;
 
-    &:hover .step__num, &:hover .step__descr{
+    &:hover .step__num,
+    &:hover .step__descr {
       color: #fff;
     }
   }
@@ -153,9 +147,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-
   .how-working {
-
     &__bl-description {
       display: none;
     }

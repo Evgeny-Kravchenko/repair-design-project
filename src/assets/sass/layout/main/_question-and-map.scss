@@ -11,7 +11,7 @@
     margin: 0 auto 25px auto;
     text-align: center;
     text-transform: uppercase;
-    color: #E3B873;
+    color: #e3b873;
 
     &-mob {
       display: none;
@@ -47,20 +47,25 @@
     width: 45%;
   }
 
-  .name__inp, .number-phone__inp, .question__inp {
+  .name__inp,
+  .number-phone__inp,
+  .question__inp {
     width: 100%;
     background: none;
     border: none;
     font: 1.125rem/25px "FuturaMediumC";
-    color: #FFFFFF;
+    color: #ffffff;
     outline: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 8px;
 
+    &::-webkit-input-placeholder {
+      color: #fff;
+    }
 
-    &::-webkit-input-placeholder { color: #fff; }
-
-    &::-moz-placeholder { color: #fff; }
+    &::-moz-placeholder {
+      color: #fff;
+    }
   }
 }
 
@@ -74,8 +79,8 @@
     font: 1.25rem/28px "Yeseva One";
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 50px
+    color: #ffffff;
+    margin-bottom: 50px;
   }
 
   .submit {
@@ -99,15 +104,18 @@
     background: none;
     border: none;
     font: 1.125rem/25px "FuturaMediumC";
-    color: #FFFFFF;
+    color: #ffffff;
     outline: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 8px;
 
+    &::-webkit-input-placeholder {
+      color: #fff;
+    }
 
-    &::-webkit-input-placeholder { color: #fff; }
-
-    &::-moz-placeholder { color: #fff; }
+    &::-moz-placeholder {
+      color: #fff;
+    }
   }
 
   &__checkbox {
@@ -122,7 +130,8 @@
   justify-content: space-between;
   margin: 0 auto 35px auto;
 
-  &__email, &__instagram {
+  &__email,
+  &__instagram {
     display: block;
   }
 
@@ -191,8 +200,10 @@
 
 @media screen and (max-width: 375px) {
   .name-phone {
-    .name__inp, .number-phone__inp, .question__inp {
-      border-bottom: 1px solid #C3C3C3;
+    .name__inp,
+    .number-phone__inp,
+    .question__inp {
+      border-bottom: 1px solid #c3c3c3;
     }
   }
 
@@ -200,7 +211,8 @@
     padding-bottom: 1px;
     background-color: #181818;
 
-    &__address, &__social-network {
+    &__address,
+    &__social-network {
       display: none;
     }
 
@@ -211,7 +223,7 @@
       font: 1.125rem/138.6% "Yeseva One";
       text-align: center;
       text-transform: uppercase;
-      color: #E3B873;
+      color: #e3b873;
     }
 
     &__social-network-mob {
@@ -220,7 +232,8 @@
       justify-content: space-between;
       margin: 0 auto 35px auto;
 
-      &__email, &__instagram {
+      &__email,
+      &__instagram {
         display: block;
       }
     }
@@ -248,7 +261,7 @@
     }
 
     &__inp {
-      border-bottom: 1px solid #C3C3C3;
+      border-bottom: 1px solid #c3c3c3;
     }
   }
 }

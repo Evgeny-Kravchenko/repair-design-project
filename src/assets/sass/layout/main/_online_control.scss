@@ -15,7 +15,7 @@
     margin: 0 auto 75px auto;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
 
     &:after {
       content: url("../images/camera.svg");
@@ -47,7 +47,6 @@
   }
 }
 
-
 .form-order {
   display: flex;
   justify-content: space-between;
@@ -70,9 +69,13 @@
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     outline: none;
 
-    &::-webkit-input-placeholder { color: #363636; }
+    &::-webkit-input-placeholder {
+      color: #363636;
+    }
 
-    &::-moz-placeholder { color: #363636; }
+    &::-moz-placeholder {
+      color: #363636;
+    }
   }
 
   &__name {
@@ -92,12 +95,13 @@
       align-items: center;
     }
 
-    input[type = "checkbox"] {
+    input[type="checkbox"] {
       display: none;
       &:checked {
-        &~.custom-checkbox {
+        & ~ .custom-checkbox {
           &:after {
-            background: url("../images/custom-checkbox.svg") center center no-repeat;
+            background: url("../images/custom-checkbox.svg") center center
+              no-repeat;
           }
         }
       }
@@ -109,7 +113,7 @@
       width: 18px;
       height: 18px;
       background-color: #fff;
-      background: #E3B873;
+      background: #e3b873;
       border-radius: 1px;
       margin-right: 8.62px;
 
@@ -127,14 +131,14 @@
 .submit {
   width: 200px;
   height: 51px;
-  background: #E3B873;
+  background: #e3b873;
   box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
   border-radius: 2px;
   border: none;
   font: 0.9375rem/26px "FuturaDemiC";
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -155,7 +159,6 @@
 
 @media screen and (max-width: 1100px) {
   .online-control {
-
     &__p {
       width: 100%;
       margin-top: 50px;
@@ -234,9 +237,12 @@
       border-bottom: 1px solid rgba(54, 54, 54, 0.3);
       color: #fff;
 
-      &::-webkit-input-placeholder { color: #fff; }
-      &::-moz-placeholder { color: #fff; }
-
+      &::-webkit-input-placeholder {
+        color: #fff;
+      }
+      &::-moz-placeholder {
+        color: #fff;
+      }
     }
 
     &__submit {
@@ -277,7 +283,6 @@
   }
 
   .form-order {
-
     &__submit {
       width: 100%;
       top: 267px;
@@ -292,4 +297,3 @@
     }
   }
 }
-

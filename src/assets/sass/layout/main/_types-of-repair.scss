@@ -35,7 +35,6 @@
 }
 
 .block-type {
-
   &__price {
     width: 84.1837%;
     position: absolute;
@@ -75,15 +74,14 @@
       font-style: normal;
       font-weight: normal;
       text-transform: uppercase;
-      color: #FFFFFF;
-      background: #E3B873;
+      color: #ffffff;
+      background: #e3b873;
       box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
     }
   }
 }
 
 @media screen and (max-width: 1110px) {
-
   .types-of-repair {
     padding-bottom: 260px;
   }
@@ -107,7 +105,6 @@
 }
 
 @media screen and (max-width: 970px) {
-
   .types-of-repair {
     padding-bottom: 0px;
   }
@@ -141,7 +138,6 @@
 }
 
 @media screen and (max-width: 800px) {
-
   .types-of-repair {
     padding-bottom: 210px;
   }

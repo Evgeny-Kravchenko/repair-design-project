@@ -8,7 +8,7 @@
     margin: -84px 16% 0 auto;
     position: relative;
     font: 1.25rem/25px "FuturaDemiC";
-    color: #E3B873;
+    color: #e3b873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 
     &:before {
@@ -30,9 +30,9 @@
   width: 636px;
   height: 636px;
   position: relative;
-  border-right: 4px solid #E3B873;
-  border-top: 1px solid #E3B873;
-  border-bottom: 1px solid #E3B873;
+  border-right: 4px solid #e3b873;
+  border-top: 1px solid #e3b873;
+  border-bottom: 1px solid #e3b873;
   border-radius: 50%;
   position: relative;
   top: 38px;
@@ -55,8 +55,8 @@
       height: 41.76px;
       font: 1.125rem/42px "Yeseva One";
       text-align: center;
-      color: #FFFFFF;
-      background-color: #E3B873;
+      color: #ffffff;
+      background-color: #e3b873;
       border-radius: 50%;
       position: absolute;
       top: -7px;
@@ -75,8 +75,8 @@
       height: 41.76px;
       font: 1.125rem/42px "Yeseva One";
       text-align: center;
-      color: #FFFFFF;
-      background-color: #E3B873;
+      color: #ffffff;
+      background-color: #e3b873;
       border-radius: 50%;
       position: absolute;
       top: -18px;
@@ -95,8 +95,8 @@
       height: 41.76px;
       font: 1.125rem/42px "Yeseva One";
       text-align: center;
-      color: #FFFFFF;
-      background-color: #E3B873;
+      color: #ffffff;
+      background-color: #e3b873;
       border-radius: 50%;
       position: absolute;
       top: -18px;
@@ -116,8 +116,8 @@
       height: 41.76px;
       font: 1.125rem/42px "Yeseva One";
       text-align: center;
-      color: #FFFFFF;
-      background-color: #E3B873;
+      color: #ffffff;
+      background-color: #e3b873;
       border-radius: 50%;
       position: absolute;
       top: -18px;
@@ -139,10 +139,11 @@
     font: 1.25rem "FuturaDemiC";
     margin: 0 auto 40px auto;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
-  &__name, &__number-phone {
+  &__name,
+  &__number-phone {
     margin-bottom: 43px;
   }
 
@@ -156,20 +157,25 @@
     color: rgba(255, 255, 255, 0.5);
   }
 
-  .name__inp, .number-phone__inp, .email__inp {
+  .name__inp,
+  .number-phone__inp,
+  .email__inp {
     width: 100%;
     background: none;
     border: none;
     font: 1.125rem/25px "FuturaMediumC";
-    color: #FFFFFF;
+    color: #ffffff;
     outline: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 8px;
 
+    &::-webkit-input-placeholder {
+      color: #fff;
+    }
 
-    &::-webkit-input-placeholder { color: #fff; }
-
-    &::-moz-placeholder { color: #fff; }
+    &::-moz-placeholder {
+      color: #fff;
+    }
   }
 
   &__checkbox {
@@ -182,12 +188,13 @@
       color: #fff;
     }
 
-    input[type = "checkbox"] {
+    input[type="checkbox"] {
       display: none;
       &:checked {
-        &~.custom-checkbox {
+        & ~ .custom-checkbox {
           &:after {
-            background: url("../images/custom-checkbox.svg") center center no-repeat;
+            background: url("../images/custom-checkbox.svg") center center
+              no-repeat;
           }
         }
       }
@@ -199,7 +206,7 @@
       width: 18px;
       height: 18px;
       background-color: #fff;
-      background: #E3B873;
+      background: #e3b873;
       border-radius: 1px;
       margin-right: 8.62px;
 
@@ -217,13 +224,13 @@
 .button-call {
   width: 213px;
   height: 51px;
-  background: #E3B873;
+  background: #e3b873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
   border: none;
   font: 0.8125rem/18px "FuturaDemiC";
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1350px) {

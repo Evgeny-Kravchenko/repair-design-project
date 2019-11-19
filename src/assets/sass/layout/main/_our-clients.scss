@@ -42,20 +42,21 @@
   width: 296px;
   display: flex;
   justify-content: space-between;
-  background: #E3B873;
+  background: #e3b873;
   box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 
-  &__m, &__days {
+  &__m,
+  &__days {
     position: relative;
     display: block;
     font: 1.0625rem/24px "Yeseva One";
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &__m {
     padding: 15px 20px 15px 66px;
-    border-right: 0.75px solid #FFFFFF;
+    border-right: 0.75px solid #ffffff;
 
     &:after {
       content: url("../images/m2.svg");
