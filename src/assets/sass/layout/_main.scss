@@ -1,8 +1,3 @@
-.main {
-  width: 100%;
-  overflow: hidden;
-}
-
 @import "./main/rostov-ov-don";
 @import "./main/completed_projects";
 @import "./main/online_control";
@@ -14,3 +9,8 @@
 @import "./main/our-team";
 @import "./main/our-clients";
 @import "./main/question-and-map";
+
+.main {
+  width: 100%;
+  overflow: hidden;
+}

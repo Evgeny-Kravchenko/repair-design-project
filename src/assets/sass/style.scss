@@ -1,13 +1,11 @@
 @import "./base/normilize";
-@import "./utils/mixins";
 @import "./utils/keyframes";
 @import "./base/typography";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
 
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
 }
-
-@import "./layout/header";
-@import "./layout/main";
-@import "./layout/footer";
