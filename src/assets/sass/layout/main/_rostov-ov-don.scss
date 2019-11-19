@@ -57,7 +57,7 @@
     }
   }
 
-  &__p {
+  &__text {
     width: 71%;
     font: 1.375rem "FuturaBookC";
     line-height: 30px;
@@ -176,7 +176,7 @@
 
 @media screen and (max-width: 500px) {
   .description {
-    &__p {
+    &__text {
       width: 90.6507%;
       text-align: left;
       padding: 10px;
@@ -216,7 +216,7 @@
       line-height: 132.83%;
     }
 
-    &__p {
+    &__text {
       padding: 0 0 32px 0;
       margin: 0;
       font-size: 1.125rem;

@@ -2,7 +2,7 @@
   padding-top: 152px;
   padding-bottom: 368px;
 
-  .types-of-repair__h3 {
+  .types-of-repair__name {
     margin-bottom: 60px;
 
     &:after {
@@ -10,7 +10,7 @@
     }
   }
 
-  &__p {
+  &__description {
     width: 46%;
     margin: 0 auto;
     font: 1.25rem/27px "FuturaBookC";
@@ -38,12 +38,12 @@
     background-color: #181818;
     padding-bottom: 33px;
 
-    .types-of-repair__h3 {
+    .types-of-repair__name {
       color: #fff;
       margin-top: 0;
     }
 
-    &__p {
+    &__description {
       width: 78%;
       margin-bottom: 38px;
       font-size: 0.9375rem;

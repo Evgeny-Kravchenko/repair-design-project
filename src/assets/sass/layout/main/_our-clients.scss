@@ -1,7 +1,7 @@
 .our-clients {
   padding-bottom: 382px;
 
-  .types-of-repair__h3 {
+  .types-of-repair__name {
     width: 134px;
     margin-bottom: 62px;
 
@@ -11,7 +11,7 @@
     }
   }
 
-  .design-project__p {
+  .design-project__description {
     width: 27%;
   }
 }
@@ -92,7 +92,7 @@
   box-sizing: border-box;
   padding: 24px 31.92px 95px 20px;
 
-  &__p {
+  &__description {
     font: 0.9375rem/180% "FuturaBookC";
     color: #959595;
   }
@@ -108,7 +108,7 @@
   }
 
   .our-clients {
-    .design-project__p {
+    .design-project__description {
       width: 90%;
     }
   }

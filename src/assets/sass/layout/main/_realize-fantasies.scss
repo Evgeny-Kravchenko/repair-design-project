@@ -5,7 +5,7 @@
   background-image: url("../images/fantasies-bg.jpg");
   background-size: cover;
 
-  &__h2 {
+  &__name {
     width: 25%;
     font: 1.6875rem/37px "Yeseva One";
     text-transform: uppercase;
@@ -139,7 +139,7 @@
     padding: 0;
     height: 400px;
 
-    &__h2 {
+    &__name {
       width: 85%;
       margin: 0 auto;
       font-size: 1.375rem;
