@@ -1,16 +1,16 @@
-//Подключаем модули gulp
+//Add modules of gulp
 const gulp = require("gulp"),
   rename = require("gulp-rename"),
   sourcemaps = require("gulp-sourcemaps"),
   browserSync = require("browser-sync").create(),
   del = require("del");
 
-// Подключение модулей gulp-css
+// Add modules of gulp-css
 const scss = require("gulp-sass"),
   autoprefixer = require("gulp-autoprefixer");
 
-//Функции
-//Таск на html
+//Functions
+//Task html
 function html() {
   return (
     gulp
@@ -20,63 +20,63 @@ function html() {
       .pipe(browserSync.stream())
   );
 }
-//Таск на стили
+//Task style
 function styles() {
-  // Выбор файла scss
+  // Choose file scss
   return (
     gulp
       .src("src/assets/sass/style.scss")
-      // Выполнение sourcemaps начало (возможность видеть ошибку в начальном файле)
+      // Sourcemaps execution start (the ability to see an error in the src file)
       .pipe(sourcemaps.init())
-      // Компиляция scss в css
+      // Compilation scss to css
       .pipe(
         scss({
           errorLogToConsole: true,
           outputStyle: "compressed"
         })
       )
-      // Просмотр ошибок в консоли
+      // Watching errors in console
       .on("error", console.error.bind(console))
-      // Расставление автопрефиксов для кроссбраузерности
+      // Add auto prefixes
       .pipe(
         autoprefixer({
           overrideBrowserslist: ["> 0.1%"],
           cascade: false
         })
       )
-      // Переименование файла
+      // Rename file
       .pipe(rename({ suffix: ".min" }))
-      // Sourcemap конец
+      // Sourcemap end
       .pipe(sourcemaps.write())
-      // Выгрузка скомпилированного css в dist/css
+      // Unload Compiled src/css to dist/css
       .pipe(gulp.dest("dist/css"))
-      // Обновляет браузер в случае изменения файлов scss
+      // Updates the browser in case of changing scss files
       .pipe(browserSync.stream())
   );
 }
 
-// Коприование шрифтов
+// Copy fonts
 function fonts() {
   return gulp.src("src/assets/fonts/**/*.ttf").pipe(gulp.dest("dist/fonts"));
 }
 
-// Копирование изображений
+// Copy images
 function img() {
   return gulp.src("src/assets/images/**/*.*").pipe(gulp.dest("dist/images"));
 }
 
-//Функция для автообновления файлов в случае их изменения
+//Function for auto-updating files if it change
 function watch() {
-  // Запуск browserSync
+  // Start browserSync
   browserSync.init({
     server: {
       baseDir: "dist/"
     },
     port: 3000
   });
-  // Запуск функции converter в случае изменения файлов стилей scss
+  // Start function converter if scss-files changes
   gulp.watch("src/assets/sass/**/*.scss", styles);
-  // Обновляет браузер в случае изменения html
+  // Upload page if html-file change
   gulp.watch("src/*.html").on("change", html);
 }
 
@@ -84,18 +84,18 @@ function clean() {
   return del(["dist/*"]);
 }
 
-// ТАСКИ
-//Компилирование файлов стилей и скриптов по отдельности
+// Tasks
+//Compilation files of styles and scripts separately
 gulp.task("html", html);
 gulp.task("styles", styles);
 gulp.task("fonts", fonts);
 gulp.task("img", img);
-// Автоматическое компилирование файлов и запуск browserSync
+// Auto compilation file and start browserSync
 gulp.task("watch", watch);
-// Удаление файлов в dist и компилирование новых файлов
+// Remove files from dist and compilation new files
 gulp.task(
   "dist",
   gulp.series(clean, gulp.parallel("html", "styles", "fonts", "img"))
 );
-// Удаление файлов в dist и компилирование новых файлов + автоматическое компилирование файлов
+// Remove files from dist and compilation new files + auto compilation files
 gulp.task("dev", gulp.series("dist", "watch"));
