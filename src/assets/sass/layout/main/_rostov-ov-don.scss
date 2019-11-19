@@ -82,12 +82,6 @@
   cursor: pointer;
   padding: 16px 40px;
   transition: 0.5s;
-
-  &:hover {
-    background: #e3b873;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0);
-  }
 }
 
 .btn-application {
@@ -102,7 +96,9 @@
   padding: 16px 21px;
   border: 1px solid #ffffff;
   transition: 0.5s;
+}
 
+.btn-application, .btn-calculate {
   &:hover {
     background: #e3b873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
