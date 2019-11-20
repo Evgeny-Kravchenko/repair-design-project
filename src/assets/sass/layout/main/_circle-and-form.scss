@@ -48,13 +48,12 @@
     color: #363636;
   }
 
-  &__step-one {
-    width: 60%;
-    top: 58px;
-    right: -319px;
-
+  &__step-one,
+  &__step-two,
+  &__step-three,
+  &__step-four {
     &:before {
-      content: "01";
+      position: absolute;
       width: 42px;
       height: 42px;
       font-family: "Yeseva One", "Segoe WP", sans-serif;
@@ -64,10 +63,19 @@
       color: #ffffff;
       background-color: #e3b873;
       border-radius: 50%;
-      position: absolute;
+      border: 10px solid #ffffff;
+    }
+  }
+
+  &__step-one {
+    width: 60%;
+    top: 58px;
+    right: -319px;
+
+    &:before {
+      content: "01";
       top: -7px;
       left: -70px;
-      border: 10px solid #ffffff;
     }
   }
 
@@ -77,19 +85,8 @@
 
     &:before {
       content: "02";
-      width: 41.76px;
-      height: 41.76px;
-      font-family: "Yeseva One", "Segoe WP", sans-serif;
-      font-size: 1.8rem;
-      line-height: 42px;
-      text-align: center;
-      color: #ffffff;
-      background-color: #e3b873;
-      border-radius: 50%;
-      position: absolute;
       top: -18px;
       left: -70px;
-      border: 10px solid #ffffff;
     }
   }
 
@@ -99,19 +96,8 @@
 
     &:before {
       content: "03";
-      width: 41.76px;
-      height: 41.76px;
-      font-family: "Yeseva One", "Segoe WP", sans-serif;
-      font-size: 1.8rem;
-      line-height: 42px;
-      text-align: center;
-      color: #ffffff;
-      background-color: #e3b873;
-      border-radius: 50%;
-      position: absolute;
       top: -18px;
       left: -65px;
-      border: 10px solid #ffffff;
     }
   }
 
@@ -122,19 +108,8 @@
 
     &:before {
       content: "04";
-      width: 41.76px;
-      height: 41.76px;
-      font-family: "Yeseva One", "Segoe WP", sans-serif;
-      font-size: 1.8rem;
-      line-height: 42px;
-      text-align: center;
-      color: #ffffff;
-      background-color: #e3b873;
-      border-radius: 50%;
-      position: absolute;
       top: -18px;
       left: -65px;
-      border: 10px solid #ffffff;
     }
   }
 }
@@ -177,7 +152,7 @@
   .email__inp {
     width: 100%;
     background: none;
-    border: none;
+    border: 0;
     font-family: "FuturaMediumC", "Segoe WP", sans-serif;
     font-size: 1.8rem;
     line-height: 25px;

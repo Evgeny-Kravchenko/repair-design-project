@@ -146,13 +146,11 @@
     line-height: 19px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
-    padding-bottom: 8px;
     transition: 0.5s;
 
     &_active {
       color: #e3b873;
       border-bottom: 1px solid #e3b873;
-      padding-bottom: 8px;
     }
 
     &:hover {
