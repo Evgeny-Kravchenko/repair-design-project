@@ -18,8 +18,9 @@
     width: 41.2118%;
     position: relative;
     margin-bottom: 27px;
-    font: 1.6875rem/37px "Yeseva One";
-    letter-spacing: -0.07em;
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2.7rem;
+    line-height: 37px;
     text-transform: uppercase;
     color: #e3b873;
 
@@ -33,8 +34,8 @@
 
   &__description {
     width: 87%;
-    font-family: "FuturaBookC";
-    font-size: 18px;
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
     line-height: 29px;
     color: #ffffff;
     margin-bottom: 42px;
@@ -56,13 +57,17 @@
   }
 
   &__name {
-    font: 1.125rem/25px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
     text-transform: uppercase;
     color: #e3b873;
   }
 
   &__description {
-    font: 0.9375rem/20px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
     color: #ffffff;
     width: 50%;
   }
@@ -136,16 +141,15 @@
   &__link {
     display: block;
     padding-bottom: 8px;
-    font: 0.875rem/1.1875rem "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.4rem;
+    line-height: 19px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
     padding-bottom: 8px;
     transition: 0.5s;
 
     &_active {
-      display: block;
-      font: 0.875rem/1.1875rem "Yeseva One";
-      text-transform: uppercase;
       color: #e3b873;
       border-bottom: 1px solid #e3b873;
       padding-bottom: 8px;
@@ -246,10 +250,9 @@
   }
 
   .nav__link {
-    font-size: 0.7rem;
+    font-size: 1.12rem;
 
     &_active {
-      font-size: 0.7rem;
       padding: 0;
     }
   }
@@ -322,13 +325,12 @@
     display: none;
 
     &__name {
-      font-size: 0.875rem;
+      font-size: 1.4rem;
       line-height: 138.6%;
       margin-bottom: 10px;
     }
 
     &__description {
-      font-size: 0.875rem;
       line-height: 138.6%;
     }
   }
@@ -394,13 +396,16 @@
   }
 
   .completed-projects__name {
-    font: 1.375rem/138.6% "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2.2rem;
+    line-height: 138.6%;
     width: 50%;
     margin: 0 auto 25px auto;
   }
 
   .completed-projects__description {
-    font: 0.875rem "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.4rem;
     line-height: 158.48%;
     text-align: center;
   }

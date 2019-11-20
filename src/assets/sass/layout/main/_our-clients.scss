@@ -30,7 +30,9 @@
   h5 {
     width: 215px;
     margin-left: 23px;
-    font: 1.125rem/23px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 23px;
     color: #181818;
   }
 }
@@ -39,7 +41,7 @@
   position: absolute;
   bottom: -27px;
   left: 0;
-  width: 296px;
+  width: 297px;
   display: flex;
   justify-content: space-between;
   background: #e3b873;
@@ -49,7 +51,9 @@
   &__days {
     position: relative;
     display: block;
-    font: 1.0625rem/24px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.7rem;
+    line-height: 24px;
     text-transform: uppercase;
     color: #ffffff;
   }
@@ -93,7 +97,10 @@
   padding: 24px 31.92px 95px 20px;
 
   &__description {
-    font: 0.9375rem/180% "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 180%;
+
     color: #959595;
   }
 

@@ -12,7 +12,8 @@
 
   &__link {
     position: relative;
-    font: 0.875rem "FuturaDemiC";
+    font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+    font-size: 1.4rem;
     transform: rotate(90deg);
     color: #e3b873;
     text-transform: uppercase;
@@ -48,7 +49,9 @@
   width: 43%;
 
   &__rost-on-don {
-    font: 2.5rem/53px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 4rem;
+    line-height: 53px;
     text-transform: uppercase;
     color: #ffffff;
 
@@ -59,7 +62,8 @@
 
   &__text {
     width: 71%;
-    font: 1.375rem "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 2.2rem;
     line-height: 30px;
     color: #ffffff;
     padding: 19px 0 41px 0;
@@ -74,7 +78,8 @@
   background: rgba(227, 184, 115, 0);
   border: 1px solid #ffffff;
   border-radius: 2px;
-  font: 0.8125rem "FuturaDemiC";
+  font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+  font-size: 1.3rem;
   line-height: 15px;
   text-align: center;
   color: #ffffff;
@@ -87,7 +92,8 @@
 .btn-application {
   background: rgba(227, 184, 115, 0);
   border-radius: 2px;
-  font: 0.8125rem "FuturaDemiC";
+  font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+  font-size: 1.3rem;
   line-height: 15px;
   text-align: center;
   color: #ffffff;
@@ -98,7 +104,8 @@
   transition: 0.5s;
 }
 
-.btn-application, .btn-calculate {
+.btn-application,
+.btn-calculate {
   &:hover {
     background: #e3b873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
@@ -115,7 +122,8 @@
 
   &__span {
     position: relative;
-    font: 0.875rem "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.4rem;
     text-transform: uppercase;
     color: #ffffff;
 
@@ -183,7 +191,7 @@
     }
 
     &__rost-on-don {
-      font-size: 2rem;
+      font-size: 3.2rem;
     }
 
     &__btn-calculate {
@@ -212,14 +220,14 @@
     &__rost-on-don {
       padding: 0 0 12px 0;
       text-align: left;
-      font-size: 1.4375rem;
+      font-size: 2.3rem;
       line-height: 132.83%;
     }
 
     &__text {
       padding: 0 0 32px 0;
       margin: 0;
-      font-size: 1.125rem;
+      font-size: 1.8rem;
       line-height: 135.84%;
     }
 

@@ -10,7 +10,8 @@
     width: 108px;
     margin: 0 auto 64px auto;
     position: relative;
-    font: 1.25rem "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #fff;
 
@@ -25,7 +26,9 @@
   &__description {
     width: 30%;
     margin: 0 auto;
-    font: 1.25rem/27px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 2rem;
+    line-height: 27px;
     text-align: center;
     color: #363636;
 
@@ -60,7 +63,9 @@
 
 .name-prof {
   &__name {
-    font: 1.125rem/25px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
     text-align: center;
     color: #181818;
     padding-top: 25px;
@@ -68,7 +73,9 @@
   }
 
   &__profession {
-    font: 1.125rem/26px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 26px;
     text-align: center;
     color: #959595;
   }
@@ -81,7 +88,9 @@
     margin: 0 auto;
     padding: 12px 0;
     margin-top: -66px;
-    font: 0.8125rem/20px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.3rem;
+    line-height: 20px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -208,7 +217,9 @@
 
     &__description {
       width: 90.6667%;
-      font: 0.9375rem/135.84% "FuturaBookC";
+      font-family: "FuturaBookC", "Segoe WP", sans-serif;
+      font-size: 1.5rem;
+      line-height: 135.84%;
     }
   }
 }

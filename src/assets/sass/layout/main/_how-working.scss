@@ -32,7 +32,9 @@
   &__how-work {
     display: block;
     padding-bottom: 14px;
-    font: 0.9375rem/21px "FuturaDemiC";
+    font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 21px;
     text-transform: uppercase;
     color: #ffffff;
   }
@@ -41,7 +43,9 @@
     width: 160px;
     position: relative;
     margin-bottom: 28px;
-    font: 1.6875rem/37px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2.7rem;
+    line-height: 37px;
     text-transform: uppercase;
     color: #e3b873;
 
@@ -60,7 +64,9 @@
   &__number-step {
     display: block;
     padding-top: 57px;
-    font: 1.125rem/25px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 21px;
@@ -70,7 +76,9 @@
 .ds-step {
   &__name {
     width: 44%;
-    font: 0.9375rem/23px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 23px;
     text-transform: uppercase;
     color: #e3b873;
     padding-bottom: 8px;
@@ -78,7 +86,9 @@
 
   &__description {
     width: 65%;
-    font: 0.9375rem/25px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 25px;
     color: #ffffff;
     margin-bottom: 13px;
   }
@@ -103,28 +113,29 @@
   grid-gap: 40px 15.5%;
 
   &__num {
-    font: 0.9375rem/21px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 21px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(227, 184, 115, 0.5);
     transition: 0.5s;
 
     &_active {
-      font: 0.9375rem/21px "Yeseva One";
-      text-transform: uppercase;
       color: #fff;
       border-bottom: 1px solid #e3b873;
     }
   }
 
   &__descr {
-    font: 0.9375rem/18px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 18px;
     color: rgba(255, 255, 255, 0.3);
     margin-top: 8px;
     transition: 0.5s;
 
     &_active {
-      font: 0.9375rem/18px "FuturaBookC";
       color: #fff;
       margin-top: 8px;
     }

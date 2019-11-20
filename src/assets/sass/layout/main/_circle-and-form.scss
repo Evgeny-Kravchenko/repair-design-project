@@ -7,7 +7,9 @@
     width: 17%;
     margin: -84px 16% 0 auto;
     position: relative;
-    font: 1.25rem/25px "FuturaDemiC";
+    font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+    font-size: 2rem;
+    line-height: 25px;
     color: #e3b873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 
@@ -40,7 +42,9 @@
 
   p {
     position: absolute;
-    font: 1.125rem/21px "FuturaMediumC";
+    font-family: "FuturaMediumC", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 21px;
     color: #363636;
   }
 
@@ -51,9 +55,11 @@
 
     &:before {
       content: "01";
-      width: 41.76px;
-      height: 41.76px;
-      font: 1.125rem/42px "Yeseva One";
+      width: 42px;
+      height: 42px;
+      font-family: "Yeseva One", "Segoe WP", sans-serif;
+      font-size: 1.8rem;
+      line-height: 42px;
       text-align: center;
       color: #ffffff;
       background-color: #e3b873;
@@ -73,7 +79,9 @@
       content: "02";
       width: 41.76px;
       height: 41.76px;
-      font: 1.125rem/42px "Yeseva One";
+      font-family: "Yeseva One", "Segoe WP", sans-serif;
+      font-size: 1.8rem;
+      line-height: 42px;
       text-align: center;
       color: #ffffff;
       background-color: #e3b873;
@@ -93,7 +101,9 @@
       content: "03";
       width: 41.76px;
       height: 41.76px;
-      font: 1.125rem/42px "Yeseva One";
+      font-family: "Yeseva One", "Segoe WP", sans-serif;
+      font-size: 1.8rem;
+      line-height: 42px;
       text-align: center;
       color: #ffffff;
       background-color: #e3b873;
@@ -114,7 +124,9 @@
       content: "04";
       width: 41.76px;
       height: 41.76px;
-      font: 1.125rem/42px "Yeseva One";
+      font-family: "Yeseva One", "Segoe WP", sans-serif;
+      font-size: 1.8rem;
+      line-height: 42px;
       text-align: center;
       color: #ffffff;
       background-color: #e3b873;
@@ -136,7 +148,8 @@
 
   &__title {
     width: 293px;
-    font: 1.25rem "FuturaDemiC";
+    font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+    font-size: 2rem;
     margin: 0 auto 40px auto;
     text-align: center;
     color: #ffffff;
@@ -153,7 +166,9 @@
 
   label {
     display: block;
-    font: 0.9375rem/20px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
     color: rgba(255, 255, 255, 0.5);
   }
 
@@ -163,7 +178,9 @@
     width: 100%;
     background: none;
     border: none;
-    font: 1.125rem/25px "FuturaMediumC";
+    font-family: "FuturaMediumC", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
     color: #ffffff;
     outline: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -184,7 +201,8 @@
     label {
       display: flex;
       align-items: center;
-      font: 1rem "FuturaBookC";
+      font-family: "FuturaBookC", "Segoe WP", sans-serif;
+      font-size: 1.6rem;
       color: #fff;
     }
 
@@ -227,7 +245,9 @@
   background: #e3b873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
   border: none;
-  font: 0.8125rem/18px "FuturaDemiC";
+  font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+  font-size: 1.3rem;
+  line-height: 18px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -238,7 +258,7 @@
     left: -225px;
 
     p {
-      font-size: 0.9rem;
+      font-size: 1.44rem;
     }
 
     &__step-one {

@@ -5,7 +5,8 @@
     width: 177px;
     margin: 0 auto 74px auto;
     position: relative;
-    font: 1.25rem "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #181818;
 
@@ -46,7 +47,8 @@
     box-sizing: border-box;
 
     h4 {
-      font: 1.125rem "Yeseva One";
+      font-family: "Yeseva One", "Segoe WP", sans-serif;
+      font-size: 1.8rem;
       line-height: 25px;
       color: #363636;
     }
@@ -56,7 +58,8 @@
     }
 
     li {
-      font: 0.9375rem "FuturaBookC";
+      font-family: "FuturaBookC", "Segoe WP", sans-serif;
+      font-size: 1.5rem;
       line-height: 25px;
       color: #959595;
       list-style-type: disc;
@@ -68,7 +71,9 @@
       left: 0;
       bottom: -30px;
       padding: 14px 28px;
-      font: 1.125rem/25px "Yeseva One";
+      font-family: "Yeseva One", "Segoe WP", sans-serif;
+      font-size: 1.8rem;
+      line-height: 25px;
       text-transform: uppercase;
       color: #ffffff;
       background: #e3b873;
@@ -85,16 +90,13 @@
   .block-type__price {
     top: 222px;
 
-    p {
-      font-size: 0.9375rem;
-    }
-
+    p,
     h4 {
-      font-size: 0.9375rem;
+      font-size: 1.5rem;
     }
 
     li {
-      font-size: 0.8125rem;
+      font-size: 1.3rem;
       line-height: 169.8%;
     }
   }

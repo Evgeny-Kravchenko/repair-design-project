@@ -7,7 +7,9 @@
 
   &__name {
     width: 25%;
-    font: 1.6875rem/37px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2.7rem;
+    line-height: 37px;
     text-transform: uppercase;
     color: #e3b873;
     margin-bottom: 37px;
@@ -15,7 +17,9 @@
 }
 
 .menu-style {
-  font: 1.25rem/34px "Proxima Nova";
+  font-family: "Proxima Nova", "Segoe WP", sans-serif;
+  font-size: 2rem;
+  line-height: 34px;
   padding: 0;
 
   &__item {
@@ -142,7 +146,7 @@
     &__name {
       width: 85%;
       margin: 0 auto;
-      font-size: 1.375rem;
+      font-size: 2.2rem;
       line-height: 138.6%;
       text-align: center;
     }

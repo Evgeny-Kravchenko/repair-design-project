@@ -6,7 +6,9 @@
   background-size: cover;
 
   &__address {
-    font: 1.25rem/28px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2rem;
+    line-height: 28px;
     width: 42%;
     margin: 0 auto 25px auto;
     text-align: center;
@@ -35,7 +37,9 @@
 
   label {
     display: block;
-    font: 0.9375rem/20px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
     color: rgba(255, 255, 255, 0.5);
   }
 
@@ -53,7 +57,9 @@
     width: 100%;
     background: none;
     border: none;
-    font: 1.125rem/25px "FuturaMediumC";
+    font-family: "FuturaMediumC", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
     color: #ffffff;
     outline: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -76,7 +82,9 @@
   background-color: #131313;
 
   &__name {
-    font: 1.25rem/28px "Yeseva One";
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2rem;
+    line-height: 28px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -95,7 +103,9 @@
 
   label {
     display: block;
-    font: 0.9375rem/20px "FuturaBookC";
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
     color: rgba(255, 255, 255, 0.5);
   }
 
@@ -103,7 +113,9 @@
     width: 100%;
     background: none;
     border: none;
-    font: 1.125rem/25px "FuturaMediumC";
+    font-family: "FuturaMediumC", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
     color: #ffffff;
     outline: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -220,7 +232,9 @@
       display: block;
       width: 86%;
       margin: 0 auto 21px auto;
-      font: 1.125rem/138.6% "Yeseva One";
+      font-family: "Yeseva One", "Segoe WP", sans-serif;
+      font-size: 1.8rem;
+      line-height: 138.6%;
       text-align: center;
       text-transform: uppercase;
       color: #e3b873;
