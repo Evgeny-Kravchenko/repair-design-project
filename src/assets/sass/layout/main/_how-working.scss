@@ -122,7 +122,7 @@
     transition: 0.5s;
 
     &_active {
-      color: #fff;
+      color: #ffffff;
       border-bottom: 1px solid #e3b873;
     }
   }
@@ -136,7 +136,7 @@
     transition: 0.5s;
 
     &_active {
-      color: #fff;
+      color: #ffffff;
       margin-top: 8px;
     }
   }
@@ -146,7 +146,7 @@
 
     &:hover .step__num,
     &:hover .step__descr {
-      color: #fff;
+      color: #ffffff;
     }
   }
 }

@@ -13,7 +13,7 @@
     font-family: "Yeseva One", "Segoe WP", sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
 
     &:after {
       content: url("../images/our-team.svg");
@@ -33,7 +33,7 @@
     color: #363636;
 
     &:nth-child(2) {
-      color: #fff;
+      color: #ffffff;
     }
 
     &:nth-child(4) {
@@ -140,7 +140,7 @@
 }
 
 .name-prof {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 @media screen and (max-width: 1300px) {
@@ -164,7 +164,7 @@
     background-color: #131313;
 
     &__description {
-      color: #fff;
+      color: #ffffff;
     }
   }
 
