@@ -50,6 +50,11 @@
   font-size: 1.4rem;
   text-decoration-line: underline;
   color: #e3b873;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .button-request {
@@ -63,9 +68,11 @@
   border: none;
   border-radius: 2px;
   padding: 10px 26px 10px 27px;
+  transition: 0.5s;
 
   &:hover {
     cursor: pointer;
+    transform: scale(1.1);
   }
 }
 

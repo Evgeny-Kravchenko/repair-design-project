@@ -151,6 +151,11 @@
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media screen and (max-width: 1300px) {

@@ -195,12 +195,17 @@
   background: #e3b873;
   box-shadow: 0 0 15px rgba(227, 184, 115, 0.5);
   border: none;
+  transition: 0.5s;
 
   &:after {
     content: url("../images/arrow-slider-left.svg");
     position: absolute;
     top: 19.03px;
     left: 23.09px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 }
 
