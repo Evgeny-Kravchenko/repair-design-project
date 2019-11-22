@@ -1,0 +1,150 @@
+.our-clients {
+  padding-bottom: 382px;
+
+  .types-of-repair__name {
+    width: 134px;
+    margin-bottom: 62px;
+
+    &:after {
+      content: url("../images/our-clients.svg");
+      left: 10px;
+    }
+  }
+
+  .design-project__description {
+    width: 27%;
+  }
+}
+
+.clients {
+  width: 85.8333%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-name {
+  display: flex;
+  align-items: center;
+
+  h5 {
+    width: 215px;
+    margin-left: 23px;
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 23px;
+    color: #181818;
+  }
+}
+
+.m-days {
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 297px;
+  display: flex;
+  justify-content: space-between;
+  background: #e3b873;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+
+  &__m,
+  &__days {
+    position: relative;
+    display: block;
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.7rem;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__m {
+    padding: 15px 20px 15px 66px;
+    border-right: 0.75px solid #ffffff;
+
+    &:after {
+      content: url("../images/m2.svg");
+      position: absolute;
+      top: 10px;
+      left: 15px;
+    }
+  }
+
+  &__days {
+    padding: 15px 20px 15px 66px;
+
+    &:after {
+      content: url("../images/days.svg");
+      position: absolute;
+      top: 10px;
+      left: 15px;
+    }
+  }
+}
+
+.clients .bl-client:nth-child(2) {
+  .m-days__days {
+    padding-right: 15px;
+  }
+}
+
+.bl-client {
+  position: relative;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.04);
+  width: 30.4207%;
+  min-width: 296px;
+  box-sizing: border-box;
+  padding: 24px 31.92px 95px 20px;
+
+  &__description {
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 180%;
+
+    color: #959595;
+  }
+
+  &__photo-name {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .clients {
+    width: 95%;
+  }
+
+  .our-clients {
+    .design-project__description {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .our-clients {
+    padding-bottom: 0;
+  }
+
+  .clients {
+    flex-direction: column;
+    align-items: center;
+
+    &__bl-client {
+      width: 50%;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .clients__bl-client {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .our-clients {
+    display: none;
+  }
+}

@@ -1,0 +1,68 @@
+.design-project {
+  padding-top: 152px;
+  padding-bottom: 368px;
+
+  .types-of-repair__name {
+    margin-bottom: 60px;
+
+    &:after {
+      content: url("../images/mesuare\ instr.svg");
+    }
+  }
+
+  &__description {
+    width: 46%;
+    margin: 0 auto;
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 2rem;
+    line-height: 27px;
+    text-align: center;
+    color: #363636;
+    margin-bottom: 43px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .design-project {
+    padding-top: 10px;
+  }
+
+  .block-type__price {
+    padding-bottom: 39px;
+
+    p {
+      bottom: -20px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .design-project {
+    background-color: #181818;
+    padding-bottom: 33px;
+
+    .types-of-repair__name {
+      color: #ffffff;
+      margin-top: 0;
+    }
+
+    &__description {
+      width: 78%;
+      margin-bottom: 38px;
+      font-size: 1.5rem;
+      line-height: 135.84%;
+      color: #ffffff;
+    }
+  }
+
+  .mini {
+    margin-bottom: 132px;
+  }
+
+  .standart {
+    margin-bottom: 195px;
+  }
+
+  .full ul li:nth-child(7) ~ li {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+@import "./base/normilize";
+@import "./utils/keyframes";
+@import "./base/typography";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}

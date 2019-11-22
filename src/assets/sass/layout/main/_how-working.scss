@@ -1,0 +1,183 @@
+.how-working {
+  display: flex;
+  background-color: #131313;
+  padding-top: 422px;
+  padding-bottom: 505px;
+  margin-top: -513px;
+
+  .pagination {
+    width: 306px;
+    margin-top: 92px;
+
+    &__circle {
+      &:nth-child(4) {
+        margin-right: 17.54px;
+      }
+    }
+  }
+
+  &__bl-description {
+    padding-top: 4px;
+    padding-left: 6%;
+  }
+
+  &__bl-steps {
+    padding-top: 94px;
+  }
+}
+
+.bl-description {
+  width: 34%;
+
+  &__how-work {
+    display: block;
+    padding-bottom: 14px;
+    font-family: "FuturaDemiC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__name {
+    width: 160px;
+    position: relative;
+    margin-bottom: 28px;
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 2.7rem;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #e3b873;
+
+    &::after {
+      content: url("../images/project_line.svg");
+      position: absolute;
+      bottom: 10px;
+      left: 193px;
+    }
+
+    &__bs-step {
+      margin-top: 20px;
+    }
+  }
+
+  &__number-step {
+    display: block;
+    padding-top: 57px;
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 21px;
+  }
+}
+
+.ds-step {
+  &__name {
+    width: 44%;
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #e3b873;
+    padding-bottom: 8px;
+  }
+
+  &__description {
+    width: 65%;
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 13px;
+  }
+}
+
+.bl-steps {
+  width: 60%;
+
+  &__step {
+    margin-bottom: 53px;
+  }
+
+  &__picture img {
+    width: 100%;
+  }
+}
+
+.step {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px 15.5%;
+
+  &__num {
+    font-family: "Yeseva One", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(227, 184, 115, 0.5);
+    transition: 0.5s;
+
+    &_active {
+      color: #ffffff;
+      border-bottom: 1px solid #e3b873;
+    }
+  }
+
+  &__descr {
+    font-family: "FuturaBookC", "Segoe WP", sans-serif;
+    font-size: 1.5rem;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.3);
+    margin-top: 8px;
+    transition: 0.5s;
+
+    &_active {
+      color: #ffffff;
+      margin-top: 8px;
+    }
+  }
+
+  &__bl {
+    display: block;
+
+    &:hover .step__num,
+    &:hover .step__descr {
+      color: #ffffff;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .how-working__bl-steps {
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .how-working {
+    &__bl-description {
+      display: none;
+    }
+
+    &__bl-steps {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .how-working {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .how-working {
+    display: none;
+  }
+}

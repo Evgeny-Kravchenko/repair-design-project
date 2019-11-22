@@ -1,0 +1,36 @@
+.footer {
+  padding: 50px 86.4px;
+
+  .navbar {
+    margin-left: 34px;
+  }
+
+  .button-request {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding-right: 28.8px;
+    padding-left: 28.8px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    .header__number-mobile {
+      display: none;
+    }
+
+    .navbar {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    display: none;
+  }
+}
