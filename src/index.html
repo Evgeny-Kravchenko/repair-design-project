@@ -9,25 +9,25 @@
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
-      <h1 class="header__logo logo"><a class="logo__link" href="#">IC "Repair Design Project"</a></h1>
+    <header class="header" id="header">
+      <h1 class="header__logo logo"><a class="logo__link" href="#header">IC "Repair Design Project"</a></h1>
       <nav class="navbar">
         <ul class="navbar__menu">
-          <li class="navbar__item"><a href="#" class="navbar__link navbar__link_active">home</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">projects</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">measurement</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">teams</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">reviews</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">contacts</a></li>
+          <li class="navbar__item"><a href="#header" class="navbar__link navbar__link_active">home</a></li>
+          <li class="navbar__item"><a href="#header" class="navbar__link">projects</a></li>
+          <li class="navbar__item"><a href="#header" class="navbar__link">measurement</a></li>
+          <li class="navbar__item"><a href="#header" class="navbar__link">teams</a></li>
+          <li class="navbar__item"><a href="#header" class="navbar__link">reviews</a></li>
+          <li class="navbar__item"><a href="#header" class="navbar__link">contacts</a></li>
         </ul>
       </nav>
       <a class="header__number-mobile number-mobile" href="tel:+7(928)768-32-39">+7 (928) 768-32-39</a>
       <button class="header__button button-request">Request a call</button>
     </header>
     <main class="main">
-      <div class="rostov-on-don">
+      <div class="rostov-on-don" id="rostov-on-don">
         <div class="instagram">
-          <a class="instagram__link" href="#">instagram</a>
+          <a class="instagram__link" href="#rostov-on-don">instagram</a>
         </div>
         <div class="turnkey-repair">
           <div class="description turnkey-repair__description">
@@ -40,11 +40,11 @@
             </div>
           </div>
         </div>
-        <a class="scroll-down" href="#">
+        <a class="scroll-down" href="#rostov-on-don">
             <span class="scroll-down__span">Scroll down</span>
         </a>
       </div>
-      <div class="projects">
+      <div class="projects" id="projects">
         <div class="completed-projects projects__completed-projects">
           <h2 class="completed-projects__name">completed projects</h2>
           <p class="completed-projects__description">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
@@ -67,19 +67,25 @@
             </div>
           </div>
           <div class="pagination">
-            <a class="pagination__left-arrow" href="#"><img src="./images/left-arrow.svg" alt="left-arrow"></a>
-            <a class="pagination__circle_active" href="#"></a>
-            <a class="pagination__circle" href="#"></a>
-            <a class="pagination__circle" href="#"></a>
-            <a class="pagination__right-arrow" href="#"><img src="./images/right-arrow.svg" alt=""></a>
+            <a class="pagination__left-arrow" href="#projects"><img src="./images/left-arrow.svg" alt="left-arrow"></a>
+            <a class="pagination__circle_active" href="#projects"></a>
+            <a class="pagination__circle" href="#projects"></a>
+            <a class="pagination__circle" href="#projects"></a>
+            <a class="pagination__right-arrow" href="#projects"><img src="./images/right-arrow.svg" alt=""></a>
           </div>
         </div>
         <div class="slider-nav">
           <nav class="nav slider-nav__nav">
             <ul class="nav__menu">
-              <li class="nav__item"><a href="#" class="nav__link nav__link_active">rostov-on-don admiral</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">sochi thieves</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">rostov-on-don patriotic</a></li>
+              <li class="nav__item">
+                <a href="#projects" class="nav__link nav__link_active">rostov-on-don admiral</a>
+              </li>
+              <li class="nav__item">
+                <a href="#projects" class="nav__link">sochi thieves</a>
+              </li>
+              <li class="nav__item">
+                <a href="#projects" class="nav__link">rostov-on-don patriotic</a>
+              </li>
             </ul>
           </nav>
           <div class="slider">
@@ -223,23 +229,45 @@
         </form>
         <p class="circle-and-form__piggy-bank">Help save 10 - 20% of the cost of materials</p>
       </div>
-      <div class="realize-fantasies">
+      <div class="realize-fantasies" id="realize-fantasies">
         <div class="pos-neg">
           <h2 class="realize-fantasies__name">We realize your
               wildest fantasies</h2>
           <nav action="#" method="GET" class="style-of-repair">
             <ul class="style-of-repair__menu-style menu-style">
-              <li class="menu-style__item"><a href="#" class="menu-style__link_active">American classic</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Empire</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Classical</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Loft</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Minimalism</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Provence</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Romanticism</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Scandinavian style</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Mediterranean style</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">High tech</a></li>
-              <li class="menu-style__item"><a href="#" class="menu-style__link">Eclecticism</a></li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link_active">American classic</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Empire</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Classical</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Loft</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Minimalism</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Provence</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Romanticism</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Scandinavian style</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Mediterranean style</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">High tech</a>
+              </li>
+              <li class="menu-style__item">
+                <a href="#realize-fantasies" class="menu-style__link">Eclecticism</a>
+              </li>
             </ul>
           </nav>
           <img src="./images/fantasies-one.jpg" alt="img-one" class="img-one">
@@ -309,7 +337,7 @@
           </div>
         </div>
       </div>
-      <div class="how-working">
+      <div class="how-working" id="how-working">
         <div class="how-working__bl-description bl-description">
           <span class="bl-description__how-work">How we are working</span>
           <h2 class="bl-description__name">6 steps to the goal</h2>
@@ -320,39 +348,43 @@
             <p class="ds-step__description"> He will advise you on the issues of repair technology, apartment design, terms of repair of the apartment as a whole and its individual stages.</p>
           </div>
           <div class="pagination how-working__pagination">
-            <a class="pagination__left-arrow" href="#"><img src="./images/left-arrow.svg" alt="left-arrow"></a>
-            <a class="pagination__circle_active" href="#"></a>
-            <a class="pagination__circle" href="#"></a>
-            <a class="pagination__circle" href="#"></a>
-            <a class="pagination__circle" href="#"></a>
-            <a class="pagination__circle" href="#"></a>
-            <a class="pagination__circle" href="#"></a>
-            <a class="pagination__right-arrow" href="#"><img src="./images/right-arrow.svg" alt=""></a>
+            <a class="pagination__left-arrow" href="#how-working">
+              <img src="./images/left-arrow.svg" alt="left-arrow">
+            </a>
+            <a class="pagination__circle_active" href="#how-working"></a>
+            <a class="pagination__circle" href="#how-working"></a>
+            <a class="pagination__circle" href="#how-working"></a>
+            <a class="pagination__circle" href="#how-working"></a>
+            <a class="pagination__circle" href="#how-working"></a>
+            <a class="pagination__circle" href="#how-working"></a>
+            <a class="pagination__right-arrow" href="#how-working">
+              <img src="./images/right-arrow.svg" alt="">
+            </a>
           </div>
         </div>
         <div class="how-working__bl-steps bl-steps">
           <div class="bl-steps__step step">
-            <a href="#" class="step__bl_active">
+            <a href="#how-working" class="step__bl_active">
               <span class="step__num step__num_active">01</span>
               <p class="step__descr step__descr_active">Departure to<br>room measurements</p>
             </a>
-            <a href="#" class="step__bl">
+            <a href="#how-working" class="step__bl">
               <span class="step__num">02</span>
               <p class="step__descr">Compilation<br>estimates</p>
             </a>
-            <a href="#" class="step__bl">
+            <a href="#how-working" class="step__bl">
               <span class="step__num">03</span>
               <p class="step__descr">Development<br>project design</p>
             </a>
-            <a href="#" class="step__bl">
+            <a href="#how-working" class="step__bl">
               <span class="step__num">04</span>
               <p class="step__descr">Purchasing Supplies</p>
             </a>
-            <a href="#" class="step__bl">
+            <a href="#how-working" class="step__bl">
               <span class="step__num">05</span>
               <p class="step__descr">Repair finishing work</p>
             </a>
-            <a href="#" class="step__bl">
+            <a href="#how-working" class="step__bl">
               <span class="step__num">06</span>
               <p class="step__descr">Приемка-сдача<br>работ</p>
             </a>
@@ -441,7 +473,7 @@
           </div>
         </div>
       </div>
-      <div class="question-and-map">
+      <div class="question-and-map" id="question-and-map">
         <form class="question-and-map__question form-question" autocomplete="off">
           <h6 class="form-question__name">have any questions?</h6>
           <div class="question-and-map__name-phone name-phone">
@@ -470,10 +502,10 @@
         <address class="question-and-map__address">Rostov-on-Don, Nansen St., 239 Shopping Center
           Decorum Tel +7 (928) 768 32 29</address>
           <div class="question-and-map__social-network social-network">
-            <a href="#" class="social-network__email">
+            <a href="#question-and-map" class="social-network__email">
               <img src="./images/social-email.svg" alt="email">
             </a>
-            <a href="#" class="social-network__instargam">
+            <a href="#question-and-map" class="social-network__instargam">
               <img src="./images/social-instargam.svg" alt="instagram">
             </a>
           </div>
@@ -483,25 +515,37 @@
           <address class="question-and-map__address-mob">Rostov-on-Don, Nansen St., 239 Shopping Center
             Decorum Tel +7 (928) 768 32 29</address>
             <div class="question-and-map__social-network-mob social-network-mob">
-              <a href="#" class="social-network-mob__email">
+              <a href="#question-and-map" class="social-network-mob__email">
                 <img src="./images/social-email.svg" alt="email" width="39">
               </a>
-              <a href="#" class="social-network-mob__instargam">
+              <a href="#question-and-map" class="social-network-mob__instargam">
                 <img src="./images/social-instargam.svg" alt="instagram" width="39">
               </a>
             </div>
       </div>
     </main>
-    <footer class="header footer">
+    <footer class="header footer" id="footer">
       <h2 class="header__logo logo"><a class="logo__link" href="#">IC "Repair Design Project"</a></h2>
       <nav class="navbar">
         <ul class="navbar__menu">
-          <li class="navbar__item"><a href="#" class="navbar__link navbar__link_active">home</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">projects</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">measurement</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">teams</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">reviews</a></li>
-          <li class="navbar__item"><a href="#" class="navbar__link">contacts</a></li>
+          <li class="navbar__item">
+            <a href="#footer" class="navbar__link navbar__link_active">home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#footer" class="navbar__link">projects</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#footer" class="navbar__link">measurement</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#footer" class="navbar__link">teams</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#footer" class="navbar__link">reviews</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#footer" class="navbar__link">contacts</a>
+          </li>
         </ul>
       </nav>
       <a class="header__number-mobile number-mobile" href="tel:+7(928)768-32-39">+7 (928) 768-32-39</a>
